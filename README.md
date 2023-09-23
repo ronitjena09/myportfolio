@@ -6,6 +6,4 @@ Also used CSS Animations
 
 # Here Is the Webpage demo link
 
-https://ronit.github.io/portfolio-intern/
-
-THIS WAS MADE UNDER INTERNSHIP IN OASIS INFOBYTE
+[https://ronit.github.io/portfolio-intern/](https://ronitjena09.github.io/myportfolio/)
