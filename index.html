@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ronit Jena</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+        <header>
+
+
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Skills</a>
+                            <a href="#work">Work</a>
+                            <a href="#contact">Contact</a>
+
+                        </div>
+                    </div>
+                </nav>
+
+        </header>
+
+        <section id="about" class="about">
+          <div class="hero flex items-center justify-between">
+              <div class="right flex-1">
+                  <h6>Ronit Jena</h6>
+                  <h1>I’m a
+                   <div class="text-container">
+                    <span style="--i:0">Web Developer</span>
+                    <span style="--i:1">Software Tester</span>
+                    <span style="--i:2">Machine Learner</span>
+                  </div>
+                  </div>
+                  </h1>
+
+          </div>
+      </div>
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/myself.jpeg" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h2>Hello! I'm Ronit Jena</h2>
+                    <p >Enthusiastic learner,Curious to learn and understand new things...</p>
+                </div>
+                <div>
+                    <button class="btn btn-secondary"onclick="window.location='https://drive.google.com/file/d/1ngEFTqfY6CNvvfihNauDHFcoN8S5De2D/view?pli=1'">DOWNLOAD CV</button></a>
+            </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>My Skills or Technologies</span></h1>
+                <div class=card-wrapper>
+                    <button class="btn btn-secondary">Python</button>
+               </div>
+            <div>
+                <button class="btn btn-secondary">Web Technology(HTML,CSS,JavaScript)</button>
+            </div>
+            <div>
+                <button class="btn btn-secondary">Cloud works(GCC,AWS)</button>
+            </div>
+            <div>
+                <button class="btn btn-secondary">Selenium</button>
+            </div>
+            <div>
+                <button class="btn btn-secondary">Java</button>
+            </div>
+            </div>
+        </section>
+<section id="work" class="works" text-align="centre">
+    <h1 class="section-heading"><span>My Works</span></h1>
+  <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Web Development')">Web Development</button>
+  <button class="tablinks" onclick="openCity(event, 'Computer Vision')">Computer Vision</button>
+</div>
+
+<!-- Tab content -->
+<div id="Web Development" class="tabcontent">
+  <p>Took certification on Udemy for Web Development in Full-Stack.</p>
+   <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+</div>
+
+<div id="Computer Vision" class="tabcontent">
+  <p>In this project,created a real time interface for real time object detection through image classification and detector algorithm used is YOLO v4.
+Successfully completed the project with 95% accuracy
+and with FPS of 30</p>
+ <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+</div>
+<section>
+
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h1 class="section-heading"><span>Contact Us</span></h1>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone.png" alt="">
+                        <h1>Contact Me: </h1>
+                        <h6>+91 6301655286</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/mail.png" alt="">
+                        <h1>Email ID:</h1>
+                        <h6>Ronitjena64@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/home.png" alt="">
+                        <h1>Visit Me</h1>
+                        <h6>Chandrama Complex, Bhubaneswar, Odisha 751001. India</h6>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+           
+            <div class="footer-socials">
+                <a href="https://www.facebook.com/profile.php?id=100071524353340&mibextid=ZbWKwL" target="_blank"><img src="./images/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/rxnitt/" target="_blank"> <img src="./images/instagram.png" alt=""></a>
+                <a href="https://github.com/ronitjena09" target="_blank"> <img src="./images/github.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/ronit-jena-02a3b7146/" target="_blank"> <img src="./images/linkedin.png" alt=""></a>
+            </div>
+            <div class="copyright">
+                &copy Copyright and Rights Reserved to Ronit Jena
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
